@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS posts;
+CREATE TABLE IF NOT EXISTS posts (
+	id TEXT,
+	thumbnail TEXT,
+	score TEXT,
+	title TEXT,
+	author TEXT,
+	url TEXT,
+	num_comments TEXT
+);
